@@ -73,7 +73,7 @@ export const Hero = () => {
             <Button
               size="lg"
               variant="outline"
-              className="border-white/30 text-white hover:bg-white/10 font-semibold px-8 py-4 text-lg gs-transition-spring"
+              className="border-white/30 text-white hover:bg-white/10 font-semibold px-8 py-4 text-lg gs-transition-spring bg-white/10"
               onClick={() => scrollToSection('servicos')}
             >
               Conhecer Serviços

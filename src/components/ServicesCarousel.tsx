@@ -2,9 +2,14 @@ import { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight, Truck, Package, Car, Wrench, Settings, Users, ShoppingCart, Cog } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
-import servicoTransporte from '@/assets/servico-transporte.jpg';
+import servicoTransporte from '@/assets/transporte.jpg';
 import servicoManutencao from '@/assets/servico-manutencao.jpg';
 import servicoLocacao from '@/assets/servico-locacao.jpg';
+import servicoCarga from '@/assets/servico-carga-descarga.jpg';
+import servicoAluguel from '@/assets/servico-aluguel-carros.jpg';
+import servicoMaquinas from '@/assets/servico-maquinas.jpg';
+import servicoPecas from '@/assets/servico-pecas.jpg';
+import servicoPassageiros from '@/assets/servico-passageiros.jpg';
 
 const services = [
   {
@@ -19,21 +24,21 @@ const services = [
     title: "Carga e descarga",
     description: "Equipe treinada para operações eficientes.",
     icon: Package,
-    image: servicoTransporte
+    image: servicoCarga
   },
   {
     id: 3,
     title: "Locação de automóveis",
     description: "Veículos para uso corporativo, sem condutor.",
     icon: Car,
-    image: servicoLocacao
+    image: servicoAluguel
   },
   {
     id: 4,
     title: "Máquinas e equipamentos",
     description: "Aluguel sob demanda para o seu projeto.",
     icon: Settings,
-    image: servicoManutencao
+    image: servicoMaquinas
   },
   {
     id: 5,
@@ -47,14 +52,14 @@ const services = [
     title: "Peças usadas",
     description: "Reaproveitamento responsável e econômico.",
     icon: Cog,
-    image: servicoManutencao
+    image: servicoPecas
   },
   {
     id: 7,
     title: "Passageiros com motorista",
     description: "Translado corporativo sob reserva.",
     icon: Users,
-    image: servicoLocacao
+    image: servicoPassageiros
   },
   {
     id: 8,

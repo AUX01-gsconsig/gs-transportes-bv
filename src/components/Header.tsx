@@ -61,7 +61,7 @@ export const Header = () => {
             <Button
               variant="default"
               className="bg-secondary hover:bg-secondary/90 text-secondary-foreground hover-glow"
-              onClick={() => window.open('https://wa.me/5511930147751', '_blank')}
+              onClick={() => window.open('https://wa.me/5511930147751?text=Olá! Gostaria de solicitar informações sobre os serviços da GS Transportes.', '_blank')}
             >
               <Phone className="w-4 h-4 mr-2" />
               Falar com a GS
@@ -120,7 +120,7 @@ export const Header = () => {
                 variant="default"
                 className="bg-secondary hover:bg-secondary/90 text-secondary-foreground mt-4"
                 onClick={() => {
-                  window.open('tel:+551193014771', '_blank');
+                  window.open('https://wa.me/5511930147751?text=Olá! Gostaria de solicitar informações sobre os serviços da GS Transportes.', '_blank');
                   setIsMenuOpen(false);
                 }}
               >

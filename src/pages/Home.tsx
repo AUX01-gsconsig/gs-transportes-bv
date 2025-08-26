@@ -2,7 +2,7 @@ import { Header } from '@/components/Header';
 import { Hero } from '@/components/Hero';
 import { About } from '@/components/About';
 import { ServicesCarousel } from '@/components/ServicesCarousel';
-import { MetaVerification } from '@/components/MetaVerification';
+import { CompanyShowcase } from '@/components/CompanyShowcase';
 import { ContactForm } from '@/components/ContactForm';
 import { Footer } from '@/components/Footer';
 
@@ -14,7 +14,7 @@ const Home = () => {
         <Hero />
         <About />
         <ServicesCarousel />
-        <MetaVerification />
+        <CompanyShowcase />
         <ContactForm />
       </main>
       <Footer />
